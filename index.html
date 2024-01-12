@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name = "viewport" content="width-device-width, initial-scale=1.0">
+        <title>Conversor de temperatura</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <div class = "container">   
+        <h1 id="titulo"> Conversor de temperatura</h1>
+        <div class = "fila">
+            <span>Convertir de °C a</span>
+            <select name = "unidad" id ="unidad">
+                <option value = "k">Kelvin</option>
+                <option value = "f">Fahrenheit</option>
+            </select>
+        </div>
+        <input type="number" id="value" placeholder="Ingrese el valor">
+        <div class="resultado" id ="resultado"> 
+            --
+        </div>
+    </div>
+    <script src="Tarea.js"></script>
+</body>
+</html>
